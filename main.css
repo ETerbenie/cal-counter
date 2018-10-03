@@ -1,0 +1,106 @@
+/**************
+General
+************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    color: #555;
+}
+
+
+/********
+Top
+*******/
+.add-current-calories {
+    padding: 10px;
+    width: 200px;
+}
+
+.add-total-calories {
+    padding: 10px;
+    width: 200px;
+}
+
+
+.top {
+    height: 40vh;
+    
+}
+
+.current-calories {
+    float: left;
+    margin-top: 50px;
+    margin-left: 40em;
+    padding: 10px;
+
+}
+
+.total-calories {
+    float: right;
+    margin-top: 50px;
+    margin-right: 40em;
+    padding: 10px;
+}
+
+
+
+
+/******
+Bottom
+*******/
+
+.add {
+    padding: 14px;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    background-color: #f7f7f7;
+}
+
+.add-btn {
+    font-size: 35px;
+    background: none;
+    border: none;
+    color: #28B9B5;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-left: 10px;
+}
+
+.add-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.add-exercise, 
+.intensity              {
+    width: 95px;
+    border: 1px solid #143243;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 5px;
+    
+}
+
+.exercise-description,
+.num-min,
+.sets,
+.reps {
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 12px 15px;
+    
+}
